@@ -1,0 +1,135 @@
+/*General*/
+h1 {
+     background-color: rgb(255, 237, 200);
+    color:  rgb(149, 114, 61);
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    padding: 30px;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-radius: 10px;
+}
+/*Nav Bar style*/
+.navagation {
+    background-color: rgb(255, 255, 163);
+    padding: 10px;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+}
+.navagation a {
+  margin-left: 10px;
+  margin-right: 10px;
+  background-color: rgb(149, 114, 61);
+  text-decoration: none;
+  color: rgb(255, 237, 200);
+  padding: 5px;
+  border-radius: 10px;
+}
+.navagation a:hover {
+    background-color: rgb(236, 90, 88);
+}
+/*Nav Bar style*/
+/*End General*/
+
+/*main page style*/ 
+.MainPage { 
+    background-color:  rgb(255, 237, 200);
+     text-align: center;
+}
+/*Image stylalizing*/
+.Description img{
+    width: 45%;
+    border-radius: 50px;
+}
+.Breeds img {
+    width: 40%;
+    border-radius: 50px;
+}
+
+.differentsnakes img {
+     width: 60%;
+    border-radius: 50px;
+}
+/*End Image stylalizing*/
+/*End main page style*/ 
+
+/*Gallary page style*/ 
+.Gallary {
+    background-color: rgb(198, 147, 76);
+    border-radius: 10px;
+}
+/*card style*/
+.cards {
+    display: grid;
+ grid-template-columns: repeat(4, minmax(220px, 1fr));
+  gap: 20px;
+  padding: 1rem;
+  justify-items: center;
+}
+.card {
+    width: 250px;
+    height: 250px;
+    perspective: 800px;
+    border-style: none;
+}
+ .card img {
+    width: 100%;
+    height: 100%;
+     border-radius: 10px;
+ }
+ .card-inner {
+    width:100%;
+    height: 100%;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+ }
+ .card:hover .card-inner {
+    transform: rotateY(180deg);
+ }
+ .card-front, .card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    text-align: center;
+     border-radius: 10px;
+ }
+ .card-front {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+ .card-back {
+   background-color: rgb(255, 255, 163);
+    transform: rotateY(180deg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+ .card{
+    box-sizing: border-box;
+ }
+
+ @media (max-width: 1000px) {
+  .cards {
+    grid-template-columns: repeat(2, 250px);
+  }
+}
+
+@media (max-width: 550px) {
+  .cards {
+    grid-template-columns: 1fr;
+  }
+}
+
+
+ /*End Card style*/ 
+/*End Gallary style*/ 
+
+/*More information style*/
+body {
+      background-color:  rgb(255, 237, 200);
+     text-align: center;
+}
