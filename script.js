@@ -1,4 +1,4 @@
-consol.log("JS HAS LOADED");
+console.log("JS HAS LOADED");
 
 let cardsList = document.querySelector(".cards");
 let cards = [];
