@@ -49,7 +49,7 @@ cards.push(
 
          {title: "Coral Glow:  ", 
         src: "imgs/ball-python-coral-glow.jpg" , 
-        description: "Here’s a color morph that looks out-of-this-world beautiful. It’s a rare hypomelanistic color morph that some refer to as “white smoke.”The base color is dark lavender. It has low color saturation and sports random black flecks throughout."},
+        description: "Here’s a color morph that looks out-of-this-world beautiful. It’s a rare hypomelanistic color morph that some refer to as “white smoke.”The base color is dark lavender. It has low color saturation and sports random black flecks throughout."}
 );
 
 cards.forEach((item) => { 
