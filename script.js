@@ -70,5 +70,6 @@ cards.forEach((item) => {
 
       </div>
     </div>
-  };
+    `;
+  });
 
