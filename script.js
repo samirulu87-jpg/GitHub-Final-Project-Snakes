@@ -1,5 +1,3 @@
-console.log("JS HAS LOADED");
-
 let cardsList = document.querySelector(".cards");
 let cards = [];
 cards.push(
